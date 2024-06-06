@@ -1,0 +1,5 @@
+C://PBO/library-manager/src/main/java/com/dito/library_manager/LibraryManagerApplication.java
+C://PBO/library-manager/src/main/java/com/dito/library_manager/controller/BookController.java
+C://PBO/library-manager/src/main/java/com/dito/library_manager/model/Book.java
+C://PBO/library-manager/src/main/java/com/dito/library_manager/repository/BookRepository.java
+C://PBO/library-manager/src/main/java/com/dito/library_manager/service/BookService.java

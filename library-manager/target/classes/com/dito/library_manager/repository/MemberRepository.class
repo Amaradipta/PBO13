@@ -1,0 +1,3 @@
+Êþº¾   A 
+   4com/dito/library_manager/repository/MemberRepository   java/lang/Object   5org/springframework/data/jpa/repository/JpaRepository 	Signature ‚Ljava/lang/Object;Lorg/springframework/data/jpa/repository/JpaRepository<Lcom/dito/library_manager/model/Member;Ljava/lang/Long;>; 
+SourceFile MemberRepository.java                	    

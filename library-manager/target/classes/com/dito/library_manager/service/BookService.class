@@ -1,0 +1,25 @@
+Êþº¾   A :
+       java/lang/Object <init> ()V	  	  
+ 
+  ,com/dito/library_manager/service/BookService bookRepository 4Lcom/dito/library_manager/repository/BookRepository;
+       2com/dito/library_manager/repository/BookRepository  findAll ()Ljava/util/List;
+     findById ((Ljava/lang/Object;)Ljava/util/Optional;
+     save &(Ljava/lang/Object;)Ljava/lang/Object;   #com/dito/library_manager/model/Book
+      
+deleteById (Ljava/lang/Object;)V RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; Code LineNumberTable LocalVariableTable this .Lcom/dito/library_manager/service/BookService; 
+getAllBooks 	Signature 9()Ljava/util/List<Lcom/dito/library_manager/model/Book;>; 
+getBookById &(Ljava/lang/Long;)Ljava/util/Optional;  id_book Ljava/lang/Long; MethodParameters M(Ljava/lang/Long;)Ljava/util/Optional<Lcom/dito/library_manager/model/Book;>; saveBook L(Lcom/dito/library_manager/model/Book;)Lcom/dito/library_manager/model/Book; book %Lcom/dito/library_manager/model/Book; 
+deleteBook (Ljava/lang/Long;)V 
+SourceFile BookService.java (Lorg/springframework/stereotype/Service; !       
+   !     "        #   /     *· ±    $        %        & '    (   #   4     
+*´  ¹ 
+ °    $        %       
+ & '   )    *  + ,  #   ?     
+*´  +¹  °    $        %       
+ & '     
+ - .  /    -   )    0  1 2  #   B     *´  +¹  À °    $        %        & '      3 4  /    3    5 6  #   C     
+*´  +¹  ±    $   
+     
+  %       
+ & '     
+ - .  /    -    7    8 !     9  

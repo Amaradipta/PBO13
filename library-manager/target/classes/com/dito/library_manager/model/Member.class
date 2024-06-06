@@ -1,0 +1,22 @@
+Êþº¾   A =
+       java/lang/Object <init> ()V	  	  
+ 
+  %com/dito/library_manager/model/Member 	id_member Ljava/lang/Long;	     name Ljava/lang/String;	     email	     idnumber	      address	     phone RuntimeVisibleAnnotations Ljakarta/persistence/Id; $Ljakarta/persistence/GeneratedValue; strategy $Ljakarta/persistence/GenerationType; IDENTITY Code LineNumberTable LocalVariableTable this 'Lcom/dito/library_manager/model/Member; getId ()Ljava/lang/Long; setId (Ljava/lang/Long;)V MethodParameters  getName ()Ljava/lang/String;  setName (Ljava/lang/String;)V getEmail setEmail 
+getIdnumber 
+setIdnumber 	id_number 
+getAddress 
+setAddress getPhone setPhone 
+SourceFile 
+Member.java Ljakarta/persistence/Entity; !       
+              e ! "                          
+     #   /     *· ±    $       	 %        & '    ( )  #   /     *´  °    $        %        & '    * +  #   >     *+µ  ±    $   
+       %        & '      
+   ,    
+    - .  #   /     *´ 
+°    $        %        & '    / 0  #   >     *+µ 
+±    $   
+    !  " %        & '         ,        1 .  #   /     *´ °    $       % %        & '    2 0  #   >     *+µ ±    $   
+    )  * %        & '         ,        3 .  #   /     *´ °    $       - %        & '    4 0  #   >     *+µ ±    $   
+    1  2 %        & '      5   ,    5    6 .  #   /     *´ °    $       5 %        & '    7 0  #   >     *+µ ±    $   
+    9  : %        & '         ,        8 .  #   /     *´ °    $       = %        & '    9 0  #   >     *+µ ±    $   
+    A  B %        & '         ,        :    ;      <  

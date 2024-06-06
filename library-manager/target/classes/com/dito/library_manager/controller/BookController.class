@@ -1,0 +1,14 @@
+Êþº¾   A 0
+       java/lang/Object <init> ()V	  	  
+ 
+  2com/dito/library_manager/controller/BookController 
+bookService .Lcom/dito/library_manager/service/BookService;
+       ,com/dito/library_manager/service/BookService 
+getAllBooks ()Ljava/util/List;
+     saveBook L(Lcom/dito/library_manager/model/Book;)Lcom/dito/library_manager/model/Book; RuntimeVisibleAnnotations 8Lorg/springframework/beans/factory/annotation/Autowired; Code LineNumberTable LocalVariableTable this 4Lcom/dito/library_manager/controller/BookController; 	Signature 9()Ljava/util/List<Lcom/dito/library_manager/model/Book;>; 4Lorg/springframework/web/bind/annotation/GetMapping; value 
+/get-books 
+createBook book %Lcom/dito/library_manager/model/Book; MethodParameters 5Lorg/springframework/web/bind/annotation/PostMapping; 	/add-book "RuntimeVisibleParameterAnnotations 5Lorg/springframework/web/bind/annotation/RequestBody; 
+SourceFile BookController.java 8Lorg/springframework/web/bind/annotation/RestController; 8Lorg/springframework/web/bind/annotation/RequestMapping; 
+/api-books/ !       
+                   /     *· ±                               2     *´  ¶ 
+°                                     ![ s "  #      =     	*´  +¶ °                   	       	 $ %  &    $        '  ![ s ( )      *    +    ,      -   .  ![ s /

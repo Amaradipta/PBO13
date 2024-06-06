@@ -1,0 +1,22 @@
+Êþº¾   A D
+       java/lang/Object <init> ()V	  	  
+ 
+  #com/dito/library_manager/model/Book  id_book Ljava/lang/Long;	     name Ljava/lang/String;	     isbn	     category	     title	     
+description	      qty I RuntimeVisibleAnnotations Ljakarta/persistence/Id; $Ljakarta/persistence/GeneratedValue; strategy $Ljakarta/persistence/GenerationType; IDENTITY Code LineNumberTable LocalVariableTable this %Lcom/dito/library_manager/model/Book; 
+getId_book ()Ljava/lang/Long; 
+setId_book (Ljava/lang/Long;)V MethodParameters  getName ()Ljava/lang/String;  setName (Ljava/lang/String;)V  getIsbn  setIsbn 
+getCategory 
+setCategory getTitle setTitle getDescription setDescription getQty ()I setQty (I)V 
+SourceFile 	Book.java Ljakarta/persistence/Entity; !        
+   !     "   #  $e % &                                     '   /     *· ±    (       	 )        * +    , -  '   /     *´  °    (        )        * +    . /  '   >     *+µ  ±    (   
+       )        * +      
+   0    
+    1 2  '   /     *´ 
+°    (        )        * +    3 4  '   >     *+µ 
+±    (   
+    !  " )        * +         0        5 2  '   /     *´ °    (       % )        * +    6 4  '   >     *+µ ±    (   
+    )  * )        * +         0        7 2  '   /     *´ °    (       - )        * +    8 4  '   >     *+µ ±    (   
+    1  2 )        * +         0        9 2  '   /     *´ °    (       5 )        * +    : 4  '   >     *+µ ±    (   
+    9  : )        * +         0        ; 2  '   /     *´ °    (       = )        * +    < 4  '   >     *+µ ±    (   
+    A  B )        * +         0        = >  '   /     *´ ¬    (       E )        * +    ? @  '   >     *µ ±    (   
+    I  J )        * +          0        A    B !     C  
